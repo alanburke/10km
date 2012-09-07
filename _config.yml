@@ -1,0 +1,4 @@
+title: Fields of Athenry 10km
+permalink: /:year/:title.html
+url: http://10km.athenryac.com
+exclude: Rakefile
