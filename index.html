@@ -1,12 +1,12 @@
 ---
 layout: default
+date: 'Sat Sep 01 00:00:00 +0100 2012'
+title: Fields of Athenry 10km 2012
 ---
-<section class="content">
-  <p>The 11th running of the Fields of Athenry 10km will take place on St. Stephen's day, December 26th at 11am.</p>
-  <p>Over the last number of years this has has become one of the leading road races in the country, and this year we aim to raise the bar higher. The race takes in a loop of the fields and finishes under the medival arch in Athenry. </p>
-  <p>The race has sold out for the last few years, so don't miss out and sign up now.</p>
 
-  <h2>A Bonus for early entrants.</h2>
-  <p>Entry fee is reduced to €18 up until 30th November.</p>
-  <p>From December 1st entry fee will be €20. </p>
-</section>
+{% for post in site.posts %}
+  {% if post.permalink == '2012/index.html' %}
+    {% assign content = post.content %}
+    {{ content }}
+  {% endif %}
+{% endfor %}
