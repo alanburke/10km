@@ -6,6 +6,7 @@
     {% if post.section == 'course_map' %} {% assign course_map = true %} {% endif %}
     {% if post.section == 'instructions' %} {% assign instructions = true %} {% endif %}
     {% if post.section == 'results' %} {% assign results = true %} {% endif %}
+    {% if post.section == 'photos' %} {% assign photos = true %} {% endif %}
     {% if post.section == 'video' %} {% assign video = true %} {% endif %}
   {% endif %}
 {% endfor %}
@@ -21,6 +22,9 @@
     {% endif %}
     {% if results %}
       <li><a href="/{{ race_year }}/results.html">Results</a></li>
+    {% endif %}
+    {% if photos %}
+      <li><a href="/{{ race_year }}/photos.html">Photos</a></li>
     {% endif %}
     {% if video %}
       <li><a href="/{{ race_year }}/video.html">Video</a></li>
