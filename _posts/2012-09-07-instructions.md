@@ -3,6 +3,7 @@ layout: default
 title: Race day instructions
 permalink: 2012/instructions.html
 section: instructions
+published: false
 ---
 ## Race numbers are available for collection from 9:30am in Presentation College Athenry Sports Hall.
 
