@@ -1,0 +1,17 @@
+{% capture race_year %}{{ page.date | date: "%Y" }}{% endcapture %}
+
+<div id="year">
+  <h3>Year</h3>
+  <ul>
+    {% for year in (2001..2009) %}
+      <li class="past">{{ year }}</li>
+    {% endfor %}
+    {% for year in (2010..2012) %}
+      {% capture link_year %}{{ year | escape }}{% endcapture %}
+      <li {% if link_year == race_year %} class="current" {% endif %} ><a href="/{{ link_year }}"> {{ link_year }} </a></li>
+    {% endfor %}
+    {% for year in (2013..2015) %}
+        <li class="future">{{ year }}</li>
+    {% endfor %}
+  </ul>
+</div>
