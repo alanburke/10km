@@ -1,0 +1,29 @@
+$total-columns  : 7;
+$column-width   : 4em;
+$gutter-width   : 1em;
+$grid-padding   : $gutter-width;
+$break: 12;
+
+
+.page {
+  @include container($total-columns, $break);
+  @include susy-grid-background;
+  .pagenav {
+    ul {
+      @include horizontal-list();
+    }
+  }
+  .year-nav {
+    @include span-columns(1);
+    h3 {
+      @extend .element-invisible;
+    }
+  }
+  .main-content {
+    @include span-columns(6 omega);
+  }
+  .supplementary {
+    clear: both;
+  }
+}
+

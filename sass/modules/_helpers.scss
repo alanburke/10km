@@ -1,0 +1,60 @@
+/** Mixins
+---------------------------------------- */
+@mixin filter-color($rgba) {
+  @include filter-gradient($rgba,$rgba);
+}
+@mixin bg-with-dimensions($img) {
+  width: image-width($img);
+  height: image-height($img);
+  background: image-url($img) 0 0 no-repeat;
+}
+
+@mixin is-small() {
+  @media only screen and (max-width: $do-layout - .01em) { @content; }
+}
+
+@mixin is-retina() {
+  @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+    only screen and (-o-min-device-pixel-ratio: 3/2),
+    only screen and (min--moz-device-pixel-ratio: 1.5),
+    only screen and (min-device-pixel-ratio: 1.5) { @content; }
+}
+
+@mixin do-layout() {
+  @media only screen and (min-width: $do-layout) { @content; }
+}
+
+@mixin do-full-layout() {
+  @media only screen and (min-width: $do-full-layout) { @content; }
+}
+
+/** Extend
+---------------------------------------- */
+.element-invisible {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  &.element-focusable:active,
+  &.element-focusable:focus {
+    position: static !important;
+    clip: auto;  
+  }
+}
+.no-link-style {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+%reset-menu {
+  padding: 0;
+  margin: 0;
+  li {
+    list-style: none;
+    a {
+      display: block;
+      color: inherit;
+      text-decoration: none;
+    }
+  }  
+}
