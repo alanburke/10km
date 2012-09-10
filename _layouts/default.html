@@ -19,7 +19,9 @@
     {% capture race_year %}{{ page.date | date: "%Y" }}{% endcapture %}
     <body class="year-{{ race_year }} {{ page.section }}">
         <header>
-        <h1> {% if page.title %} {{ page.title }} {% endif %}  </h1>
+        <h2 class="site-title">{{ site.title }}</h2>
+        <p class="current_year">{{ race_year }}</p>
+        <h1>{% if page.title %} {{ page.title }} {% endif %}</h1>
         </header>
 
         {% include main_nav.html %}
