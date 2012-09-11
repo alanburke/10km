@@ -9,11 +9,17 @@
     {% if post.section == 'photos' %} {% assign photos = true %} {% endif %}
     {% if post.section == 'video' %} {% assign video = true %} {% endif %}
   {% endif %}
+  {% capture clean_latest_year %}{{ site.latest_year | escape }}{% endcapture %}
+  {% if race_year == clean_latest_year %}
+    {% assign news = true %}
+  {% endif %}
 {% endfor %}
-
 <nav role="navigation">
   <ul>
       <li><a href="/{{ race_year }}">{{ race_year }}</a></li>
+    {% if news %}
+      <li><a href="http://www.athenryac.com/news/fields-athenry-10km">News</a></li>
+    {% endif %}
     {% if course_map %}
       <li><a href="/{{ race_year }}/course_map.html">Course Map</a></li>
     {% endif %}
