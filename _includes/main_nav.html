@@ -16,24 +16,24 @@
 {% endfor %}
 <nav role="navigation">
   <ul>
-      <li><a href="{{ race_year }}">{{ race_year }}</a></li>
+      <li><a href="/{{ race_year }}">{{ race_year }}</a></li>
     {% if news %}
       <li><a href="http://www.athenryac.com/news/fields-athenry-10km">News</a></li>
     {% endif %}
     {% if course_map %}
-      <li><a href="{{ race_year }}/course_map.html">Course Map</a></li>
+      <li><a href="/{{ race_year }}/course_map.html">Course Map</a></li>
     {% endif %}
     {% if instructions %}
-      <li><a href="{{ race_year }}/instructions.html">Instructions</a></li>
+      <li><a href="/{{ race_year }}/instructions.html">Instructions</a></li>
     {% endif %}
     {% if results %}
-      <li><a href="{{ race_year }}/results.html">Results</a></li>
+      <li><a href="/{{ race_year }}/results.html">Results</a></li>
     {% endif %}
     {% if photos %}
-      <li><a href="{{ race_year }}/photos.html">Photos</a></li>
+      <li><a href="/{{ race_year }}/photos.html">Photos</a></li>
     {% endif %}
     {% if video %}
-      <li><a href="{{ race_year }}/video.html">Video</a></li>
+      <li><a href="/{{ race_year }}/video.html">Video</a></li>
     {% endif %}
   </ul>
 </nav>
