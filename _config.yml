@@ -1,5 +1,5 @@
 title: Fields of Athenry 10km
 permalink: /:year/:title.html
 url: http://10km.athenryac.com
-exclude: Rakefile
+exclude: Rakefile, Guardfile, sass
 latest_year: 2012
