@@ -1,0 +1,33 @@
+@import "compass/css3/transition";
+
+/* Colours */
+$dark-maroon:  rgb(179, 45, 71);
+$dark-maroon-rgba: rgba(179, 45, 71, .75);
+$light-maroon: rgb(179, 45, 71);
+$light-maroon-rgba: rgba(179, 45, 71, 1);
+$dark-gray: rgb(14, 32, 59);
+$dark-gray-rgba: rgba(14, 32, 59, .5);
+$med-gray: rgb(132, 141, 154);
+$light-gray: rgb(170, 178, 192);
+$light-gray-rgba: rgba(170, 178, 192, .75);
+$white: rgb(255, 255, 255);
+$white-rgba: rgba(255, 255, 255, .75);
+
+.page {
+  background: #111 url(../images/style/striped_lens/striped_lens.png) repeat 0 0;
+  color: $dark-gray;
+}
+
+h2.site-title {
+  color: $dark-maroon;
+  color: $dark-maroon-rgba;
+  @include transition-duration(0.25s);
+  &:hover {
+    color: $light-maroon;
+    color: $light-maroon-rgba;
+  }
+}
+.page-nav {
+  background-color: $med-gray;
+  background-color: $dark-gray-rgba;
+}

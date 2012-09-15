@@ -1,0 +1,86 @@
+body {
+  font: 100%/1.4 normal "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: $dark-maroon;
+  color: $dark-maroon-rgba;
+}
+%banner-header {
+  text-align: center;
+  font-size: 1.5rem;
+}
+@include at-breakpoint(30em) {
+  %banner-header {
+    font-size: 2em;
+  }
+}
+@include at-breakpoint(41em) {
+  %banner-header {
+    font-size: 3em;
+  }
+}
+@include at-breakpoint(55em) {
+  %banner-header {
+    font-size: 4em;
+  }
+  .page .banner {
+    height: 5em;
+  }
+}
+h2.site-title {
+  @extend %banner-header;
+  font-size: 5vw;
+  margin: 0;
+  .lt-ie9 & {
+    font-size: 4em;
+  }
+}
+.lt-ie9 .page .banner {
+  height: 5em;
+}
+.page-nav {
+  a {
+   line-height: 2;
+   padding: 1px 10px;
+   background-color: $light-gray;
+   background-color: $light-gray-rgba;
+   color: $white;
+   color: $white-rgba;
+   display: block;
+   text-decoration: none;
+   font-weight: bold;
+   text-transform: uppercase;
+  }
+}
+p.current-year {
+  font-size: 2rem;
+  .lt-ie9 & {
+    font-size: 36px;
+  }
+  padding: 0.25em;
+  line-height: 1;
+  color: $dark-gray;
+  color: $dark-gray-rgba;
+  margin: 0;
+  font-weight: bold;
+}
+.year-nav {
+  li {
+   color: $light-gray;
+   color: $light-gray-rgba;
+   font-weight: bold;
+   display: block;
+   padding: 0.25em;
+   font-size: 1.5rem;
+  }
+  a {
+    color: $dark-gray;
+    color: $dark-gray-rgba;
+    display: block;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
