@@ -1,16 +1,30 @@
-$total-columns  : 7;
+$total-columns  : 6;
 $column-width   : 4em;
 $gutter-width   : 1em;
 $grid-padding   : $gutter-width;
 $break: 12;
-
+$container-style: fluid;
 
 .page {
   @include container($total-columns, $break);
   @include susy-grid-background;
-  .pagenav {
+  .banner {
+    position: relative;
+    height: 3em;
+    p.current-year {
+      position: absolute;
+      top: 0;
+      right: 0;
+      z-index: 25;
+    }
+    @include clearfix;
+  }
+  .page-nav {
+    margin-top: -2em;
+    padding: 1em 0;
     ul {
       @include horizontal-list();
+      position: relative;
     }
   }
   .year-nav {
@@ -18,12 +32,19 @@ $break: 12;
     h3 {
       @extend .element-invisible;
     }
+    ul {
+      padding: 0;
+    }
   }
   .main-content {
-    @include span-columns(6 omega);
+    @include span-columns(5 omega);
   }
   .supplementary {
     clear: both;
   }
 }
-
+@include at-breakpoint($break) {
+  .page {
+    max-width: $base-font-size*65;
+  }
+}
