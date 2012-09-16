@@ -10,7 +10,7 @@ $container-style: fluid;
   @include susy-grid-background;
   .banner {
     position: relative;
-    height: 3em;
+    height: 4em;
     p.current-year {
       position: absolute;
       top: 0;
@@ -21,7 +21,7 @@ $container-style: fluid;
   }
   .page-nav {
     margin-top: -2em;
-    padding: 1em 0;
+    padding: 0.5em 0;
     ul {
       @include horizontal-list();
       position: relative;
