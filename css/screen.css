@@ -708,63 +708,72 @@ h2.site-title:hover {
   background-color: rgba(14, 32, 59, 0.5);
 }
 
-/* line 1, ../sass/modules/_type.scss */
+/* line 2, ../sass/modules/_type.scss */
 body {
   font: 100%/1.4 normal "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* line 4, ../sass/modules/_type.scss */
+/* line 5, ../sass/modules/_type.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #b32d47;
   color: rgba(179, 45, 71, 0.75);
 }
 
-/* line 9, ../sass/modules/_type.scss */
+/* line 10, ../sass/modules/_type.scss */
+a {
+  color: #b32d47;
+}
+/* line 24, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+a:hover {
+  color: #d0435e;
+}
+
+/* line 13, ../sass/modules/_type.scss */
 h2.site-title {
   text-align: center;
   font-size: 1.5rem;
 }
 
 @media (min-width: 30em) {
-  /* line 14, ../sass/modules/_type.scss */
+  /* line 18, ../sass/modules/_type.scss */
   h2.site-title {
     font-size: 2em;
   }
 }
 @media (min-width: 41em) {
-  /* line 19, ../sass/modules/_type.scss */
+  /* line 23, ../sass/modules/_type.scss */
   h2.site-title {
     font-size: 3em;
   }
 }
 @media (min-width: 55em) {
-  /* line 24, ../sass/modules/_type.scss */
+  /* line 28, ../sass/modules/_type.scss */
   h2.site-title {
     font-size: 4em;
   }
 
-  /* line 27, ../sass/modules/_type.scss */
+  /* line 31, ../sass/modules/_type.scss */
   .page .banner {
     height: 5em;
   }
 }
-/* line 31, ../sass/modules/_type.scss */
+/* line 35, ../sass/modules/_type.scss */
 h2.site-title {
   font-size: 5vw;
   margin: 0;
 }
-/* line 35, ../sass/modules/_type.scss */
+/* line 39, ../sass/modules/_type.scss */
 .lt-ie9 h2.site-title {
   font-size: 4em;
 }
 
-/* line 39, ../sass/modules/_type.scss */
+/* line 43, ../sass/modules/_type.scss */
 .lt-ie9 .page .banner {
   height: 5em;
 }
 
-/* line 43, ../sass/modules/_type.scss */
+/* line 47, ../sass/modules/_type.scss */
 .page-nav a {
   line-height: 2;
   padding: 1px 10px;
@@ -778,7 +787,7 @@ h2.site-title {
   text-transform: uppercase;
 }
 
-/* line 56, ../sass/modules/_type.scss */
+/* line 60, ../sass/modules/_type.scss */
 p.current-year {
   font-size: 2rem;
   padding: 0.25em;
@@ -788,12 +797,12 @@ p.current-year {
   margin: 0;
   font-weight: bold;
 }
-/* line 58, ../sass/modules/_type.scss */
+/* line 62, ../sass/modules/_type.scss */
 .lt-ie9 p.current-year {
   font-size: 36px;
 }
 
-/* line 69, ../sass/modules/_type.scss */
+/* line 73, ../sass/modules/_type.scss */
 .year-nav li {
   color: #aab2c0;
   color: rgba(170, 178, 192, 0.75);
@@ -802,14 +811,14 @@ p.current-year {
   padding: 0.25em;
   font-size: 1.5rem;
 }
-/* line 77, ../sass/modules/_type.scss */
+/* line 81, ../sass/modules/_type.scss */
 .year-nav a {
   color: #0e203b;
   color: rgba(14, 32, 59, 0.5);
   display: block;
   text-decoration: none;
 }
-/* line 82, ../sass/modules/_type.scss */
+/* line 86, ../sass/modules/_type.scss */
 .year-nav a:hover {
   text-decoration: underline;
 }
