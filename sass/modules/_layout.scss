@@ -48,3 +48,10 @@ $container-style: fluid;
     max-width: $base-font-size*65;
   }
 }
+
+ul.image-gallery {
+  @include no-bullets;
+  li {
+    float: left;
+  }
+}
