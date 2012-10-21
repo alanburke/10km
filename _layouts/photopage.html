@@ -1,0 +1,18 @@
+---
+layout: default
+---
+{{ content }}
+
+{% capture race_year %}{{ page.date | date: "%Y" }}{% endcapture %}
+
+<ul class="image-gallery">
+{% for i in (1..page.numphotos) %}
+  <li>
+  <figure>
+    <a href="/media/photos/{{race_year}}/{{i}}.jpg">
+      <img src="/media/photos/{{race_year}}/t-{{i}}.jpg" />
+    </a>
+  </li>
+  </figure>
+{% endfor %}
+</ul>
