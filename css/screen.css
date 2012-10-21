@@ -665,6 +665,21 @@ table {
     max-width: 1040px;
   }
 }
+/* line 52, ../sass/modules/_layout.scss */
+ul.image-gallery {
+  list-style: none;
+}
+/* line 11, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_bullets.scss */
+ul.image-gallery li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0;
+}
+/* line 54, ../sass/modules/_layout.scss */
+ul.image-gallery li {
+  float: left;
+}
+
 /* Colours */
 /* line 16, ../sass/modules/_base.scss */
 .page {
@@ -797,6 +812,199 @@ p.current-year {
 /* line 82, ../sass/modules/_type.scss */
 .year-nav a:hover {
   text-decoration: underline;
+}
+
+/*
+    ColorBox Core Style:
+    The following CSS is consistent between example themes and should not be altered.
+*/
+/* line 5, ../sass/modules/_colorbox.scss */
+#colorbox, #cboxOverlay, #cboxWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  overflow: hidden;
+}
+
+/* line 6, ../sass/modules/_colorbox.scss */
+#cboxOverlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 7, ../sass/modules/_colorbox.scss */
+#cboxMiddleLeft, #cboxBottomLeft {
+  clear: left;
+}
+
+/* line 8, ../sass/modules/_colorbox.scss */
+#cboxContent {
+  position: relative;
+}
+
+/* line 9, ../sass/modules/_colorbox.scss */
+#cboxLoadedContent {
+  overflow: auto;
+}
+
+/* line 10, ../sass/modules/_colorbox.scss */
+#cboxTitle {
+  margin: 0;
+}
+
+/* line 11, ../sass/modules/_colorbox.scss */
+#cboxLoadingOverlay, #cboxLoadingGraphic {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 12, ../sass/modules/_colorbox.scss */
+#cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow {
+  cursor: pointer;
+}
+
+/* line 13, ../sass/modules/_colorbox.scss */
+.cboxPhoto {
+  float: left;
+  margin: auto;
+  border: 0;
+  display: block;
+  max-width: none;
+}
+
+/* line 14, ../sass/modules/_colorbox.scss */
+.cboxIframe {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border: 0;
+}
+
+/* line 15, ../sass/modules/_colorbox.scss */
+#colorbox, #cboxContent, #cboxLoadedContent {
+  box-sizing: content-box;
+}
+
+/* 
+    User Style:
+    Change the following styles to modify the appearance of ColorBox.  They are
+    ordered & tabbed in a way that represents the nesting of the generated HTML.
+*/
+/* line 22, ../sass/modules/_colorbox.scss */
+#cboxOverlay {
+  background: #000;
+}
+
+/* line 24, ../sass/modules/_colorbox.scss */
+#cboxContent {
+  margin-top: 20px;
+}
+
+/* line 25, ../sass/modules/_colorbox.scss */
+.cboxIframe {
+  background: #fff;
+}
+
+/* line 26, ../sass/modules/_colorbox.scss */
+#cboxError {
+  padding: 50px;
+  border: 1px solid #ccc;
+}
+
+/* line 27, ../sass/modules/_colorbox.scss */
+#cboxLoadedContent {
+  border: 5px solid #000;
+  background: #fff;
+}
+
+/* line 28, ../sass/modules/_colorbox.scss */
+#cboxTitle {
+  position: absolute;
+  top: -20px;
+  left: 0;
+  color: #ccc;
+}
+
+/* line 29, ../sass/modules/_colorbox.scss */
+#cboxCurrent {
+  position: absolute;
+  top: -20px;
+  right: 0px;
+  color: #ccc;
+}
+
+/* line 30, ../sass/modules/_colorbox.scss */
+#cboxSlideshow {
+  position: absolute;
+  top: -20px;
+  right: 90px;
+  color: #fff;
+}
+
+/* line 31, ../sass/modules/_colorbox.scss */
+#cboxPrevious {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  margin-top: -32px;
+  background: url(/images/controls.png) no-repeat top left;
+  width: 28px;
+  height: 65px;
+  text-indent: -9999px;
+}
+
+/* line 32, ../sass/modules/_colorbox.scss */
+#cboxPrevious:hover {
+  background-position: bottom left;
+}
+
+/* line 33, ../sass/modules/_colorbox.scss */
+#cboxNext {
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  margin-top: -32px;
+  background: url(/images/controls.png) no-repeat top right;
+  width: 28px;
+  height: 65px;
+  text-indent: -9999px;
+}
+
+/* line 34, ../sass/modules/_colorbox.scss */
+#cboxNext:hover {
+  background-position: bottom right;
+}
+
+/* line 35, ../sass/modules/_colorbox.scss */
+#cboxLoadingOverlay {
+  background: #000;
+}
+
+/* line 36, ../sass/modules/_colorbox.scss */
+#cboxLoadingGraphic {
+  background: url(images/loading.gif) no-repeat center center;
+}
+
+/* line 37, ../sass/modules/_colorbox.scss */
+#cboxClose {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  display: block;
+  background: url(/images/controls.png) no-repeat top center;
+  width: 38px;
+  height: 19px;
+  text-indent: -9999px;
+}
+
+/* line 38, ../sass/modules/_colorbox.scss */
+#cboxClose:hover {
+  background-position: bottom center;
 }
 
 /* ==========================================================================
