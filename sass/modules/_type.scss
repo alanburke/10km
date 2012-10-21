@@ -1,3 +1,4 @@
+@import "compass/utilities";
 body {
   font: 100%/1.4 normal "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -5,6 +6,9 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: $dark-maroon;
   color: $dark-maroon-rgba;
+}
+a {
+  @include link-colors($dark-maroon, lighten($dark-maroon, 10%));
 }
 %banner-header {
   text-align: center;
