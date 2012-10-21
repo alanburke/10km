@@ -8,6 +8,8 @@
     {% if post.section == 'results' %} {% assign results = true %} {% endif %}
     {% if post.section == 'photos' %} {% assign photos = true %} {% endif %}
     {% if post.section == 'video' %} {% assign video = true %} {% endif %}
+    {% if post.section == 'booklet' %} {% assign booklet = true %} {% endif %}
+    {% if post.section == 'hat' %} {% assign hat = true %} {% endif %}
   {% endif %}
   {% capture clean_latest_year %}{{ site.latest_year | escape }}{% endcapture %}
   {% if race_year == clean_latest_year %}
@@ -34,6 +36,12 @@
     {% endif %}
     {% if video %}
       <li><a href="/{{ race_year }}/video.html">Video</a></li>
+    {% endif %}
+    {% if booklet %}
+      <li><a href="/{{ race_year }}/booklet.html">Booklet</a></li>
+    {% endif %}
+    {% if hat %}
+      <li><a href="/{{ race_year }}/hat.html">Hat</a></li>
     {% endif %}
   </ul>
 </nav>
