@@ -5,7 +5,7 @@
   <ul>
     {% for year in (2010..2012) reversed %}
       {% capture link_year %}{{ year | escape }}{% endcapture %}
-      <li {% if link_year == race_year %} class="current" {% endif %} ><a href="/{{ link_year }}"> {{ link_year }} </a></li>
+      <li{% if link_year == race_year %} class="current"{% endif %}><a href="/{{ link_year }}"> {{ link_year }} </a></li>
     {% endfor %}
     {% for year in (2001..2009) reversed %}
       <li class="past">{{ year }}</li>
