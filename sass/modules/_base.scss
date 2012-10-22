@@ -13,9 +13,12 @@ $light-gray-rgba: rgba(170, 178, 192, .75);
 $white: rgb(255, 255, 255);
 $white-rgba: rgba(255, 255, 255, .75);
 
-.page {
+body {
   background: #111 url(../images/style/striped_lens/striped_lens.png) repeat 0 0;
   color: $dark-gray;
+  .page {
+    background: transparent;
+  }
 }
 
 h2.site-title {
