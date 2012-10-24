@@ -34,3 +34,11 @@ h2.site-title {
   background-color: $med-gray;
   background-color: $dark-gray-rgba;
 }
+.year-nav {
+  h3 {
+    @extend .element-invisible;
+  }
+  ul {
+   padding: 0;
+  }
+}

@@ -2,11 +2,14 @@ $total-columns  : 6;
 $column-width   : 4em;
 $gutter-width   : 1em;
 $grid-padding   : $gutter-width;
-$break: 12;
+$pre-break: 0em 30em;
+$break-sml: 30em;
+$break-med: 50em;
 $container-style: fluid;
 
 .page {
-  @include container($total-columns, $break);
+  // @include container($total-columns, $break-med);
+  @include container();
   @include susy-grid-background;
   .banner {
     position: relative;
@@ -21,20 +24,26 @@ $container-style: fluid;
   }
   .page-nav {
     margin-top: -2em;
-    padding: 0.5em 0;
     ul {
       @include horizontal-list();
       position: relative;
     }
   }
+  ul.image-gallery {
+    @include no-bullets;
+    li {
+      float: left;
+    }
+  }
+}
+@include at-breakpoint($pre-break) {
+  .year-nav ul {
+    @include horizontal-list();
+  }
+}
+@include at-breakpoint($break-sml) {
   .year-nav {
     @include span-columns(1);
-    h3 {
-      @extend .element-invisible;
-    }
-    ul {
-      padding: 0;
-    }
   }
   .main-content {
     @include span-columns(5 omega);
@@ -43,15 +52,8 @@ $container-style: fluid;
     clear: both;
   }
 }
-@include at-breakpoint($break) {
+@include at-breakpoint($break-med) {
   .page {
     max-width: $base-font-size*65;
-  }
-}
-
-ul.image-gallery {
-  @include no-bullets;
-  li {
-    float: left;
   }
 }
