@@ -12,18 +12,11 @@ $container-style: fluid;
   @include container();
   @include susy-grid-background;
   .banner {
-    position: relative;
-    height: 4em;
     p.current-year {
-      position: absolute;
-      top: 0;
-      right: 0;
-      z-index: 25;
     }
     @include clearfix;
   }
   .page-nav {
-    margin-top: -2em;
     ul {
       @include horizontal-list();
       position: relative;

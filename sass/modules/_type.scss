@@ -19,7 +19,7 @@ a {
     font-size: 2em;
   }
 }
-@include at-breakpoint(41em) {
+@include at-breakpoint(42em) {
   %banner-header {
     font-size: 3em;
   }
@@ -34,14 +34,10 @@ a {
 }
 h2.site-title {
   @extend %banner-header;
-  font-size: 5vw;
   margin: 0;
   .lt-ie9 & {
     font-size: 4em;
   }
-}
-.lt-ie9 .page .banner {
-  height: 5em;
 }
 .page-nav {
   li {
@@ -60,16 +56,10 @@ h2.site-title {
    text-transform: uppercase;
   }
 }
-p.current-year {
-  font-size: 2rem;
-  .lt-ie9 & {
-    font-size: 36px;
-  }
-  padding: 0.25em;
-  line-height: 1;
+.current-year {
+  font-size: 0.9em;
   color: $dark-gray;
   color: $dark-gray-rgba;
-  margin: 0;
   font-weight: bold;
 }
 .year-nav {
