@@ -618,6 +618,8 @@ table {
 /* line 25, ../sass/modules/_layout.scss */
 .page ul.image-gallery {
   list-style: none;
+  overflow: hidden;
+  *zoom: 1;
 }
 /* line 11, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_bullets.scss */
 .page ul.image-gallery li {
@@ -625,13 +627,13 @@ table {
   list-style-type: none;
   margin-left: 0;
 }
-/* line 27, ../sass/modules/_layout.scss */
+/* line 28, ../sass/modules/_layout.scss */
 .page ul.image-gallery li {
   float: left;
 }
 
 @media (min-width: 0em) and (max-width: 30em) {
-  /* line 33, ../sass/modules/_layout.scss */
+  /* line 34, ../sass/modules/_layout.scss */
   .year-nav ul {
     margin: 0;
     padding: 0;
@@ -663,27 +665,27 @@ table {
   }
 }
 @media (min-width: 30em) {
-  /* line 38, ../sass/modules/_layout.scss */
+  /* line 39, ../sass/modules/_layout.scss */
   .year-nav {
     width: 13.7931%;
     float: left;
     margin-right: 3.44828%;
   }
 
-  /* line 41, ../sass/modules/_layout.scss */
+  /* line 42, ../sass/modules/_layout.scss */
   .main-content {
     width: 82.75862%;
     float: right;
     margin-right: 0;
   }
 
-  /* line 44, ../sass/modules/_layout.scss */
+  /* line 45, ../sass/modules/_layout.scss */
   .supplementary {
     clear: both;
   }
 }
 @media (min-width: 50em) {
-  /* line 49, ../sass/modules/_layout.scss */
+  /* line 50, ../sass/modules/_layout.scss */
   .page {
     max-width: 1040px;
   }
