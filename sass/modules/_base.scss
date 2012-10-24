@@ -14,7 +14,8 @@ $white: rgb(255, 255, 255);
 $white-rgba: rgba(255, 255, 255, .75);
 
 body {
-  background: #111 url(../images/style/striped_lens/striped_lens.png) repeat 0 0;
+   background: #ccc url(../images/style/striped_lens/striped_lens.png) repeat 0 0;
+
   color: $dark-gray;
   .page {
     background: transparent;
