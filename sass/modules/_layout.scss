@@ -24,6 +24,7 @@ $container-style: fluid;
   }
   ul.image-gallery {
     @include no-bullets;
+    @include clearfix;
     li {
       float: left;
     }
