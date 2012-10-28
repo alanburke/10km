@@ -1,10 +1,10 @@
 $total-columns  : 6;
-$column-width   : 4em;
+$column-width   : 5em;
 $gutter-width   : 1em;
 $grid-padding   : $gutter-width;
 $pre-break: 0em 30em;
 $break-sml: 30em;
-$break-med: 50em;
+$break-med: 50em lt-1e9;
 $container-style: fluid;
 
 .page {
@@ -46,8 +46,10 @@ $container-style: fluid;
     clear: both;
   }
 }
+body {
 @include at-breakpoint($break-med) {
   .page {
     max-width: $base-font-size*65;
   }
+}
 }
