@@ -10,7 +10,6 @@ $container-style: fluid;
 .page {
   // @include container($total-columns, $break-med);
   @include container();
-  @include susy-grid-background;
   .banner {
     p.current-year {
     }
