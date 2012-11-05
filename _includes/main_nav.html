@@ -15,6 +15,7 @@
   {% if race_year == clean_latest_year %}
     {% assign news = true %}
     {% assign enter = true %}
+    {% assign poll = true %}
   {% endif %}
 {% endfor %}
 <nav role="navigation">
@@ -25,6 +26,9 @@
     {% endif %}
     {% if enter %}
       <li><a href="http://www.runireland.com/events/fields-athenry-10km">Enter</a></li>
+    {% endif %}
+    {% if poll %}
+      <li><a href="http://www.athenryac.com/what-colour-hat-fields-athenry-10km-2012">Hat Poll</a></li>
     {% endif %}
     {% if course_map %}
       <li><a href="/{{ race_year }}/course_map.html">Course Map</a></li>
