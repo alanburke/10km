@@ -3,11 +3,11 @@
 <nav class="year-nav">
   <h3>Year</h3>
   <ul>
-    {% for year in (2008..2012) reversed %}
+    {% for year in (2007..2012) reversed %}
       {% capture link_year %}{{ year | escape }}{% endcapture %}
       <li{% if link_year == race_year %} class="current"{% endif %}><a href="/{{ link_year }}"> {{ link_year }} </a></li>
     {% endfor %}
-    {% for year in (2002..2007) reversed %}
+    {% for year in (2002..2006) reversed %}
       <li class="past">{{ year }}</li>
     {% endfor %}
   </ul>
