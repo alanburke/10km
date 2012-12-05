@@ -31,6 +31,9 @@
 
         <div class="main">
           <section class="main-content">
+
+          {% include entry_barometer.html %}
+
             <h1>{% if page.title %} {{ page.title }} {% endif %}</h1>
             {{ content }}
           </section>
