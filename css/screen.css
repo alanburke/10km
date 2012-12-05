@@ -1219,3 +1219,45 @@ textarea {
     page-break-after: avoid;
   }
 }
+/* line 1, ../sass/modules/_barometer.scss */
+.barometer-message {
+  margin-top: 0.375em;
+  margin-bottom: 0.375em;
+}
+
+/* line 6, ../sass/modules/_barometer.scss */
+.barometer .current-number {
+  font-style: normal;
+}
+
+/* line 10, ../sass/modules/_barometer.scss */
+.barometer .bar {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  height: 30px;
+  background: #FFF;
+  border: solid 1px #aab2c0;
+}
+/* line 15, ../sass/modules/_barometer.scss */
+.barometer .bar .barometer-progress {
+  -webkit-border-radius: 10px 0 0 10px;
+  -moz-border-radius: 10px 0 0 10px;
+  -ms-border-radius: 10px 0 0 10px;
+  -o-border-radius: 10px 0 0 10px;
+  border-radius: 10px 0 0 10px;
+  display: block;
+  height: 30px;
+  background: red;
+  width: 0%;
+}
+/* line 22, ../sass/modules/_barometer.scss */
+.barometer .bar .barometer-progress.js-completed {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+}
