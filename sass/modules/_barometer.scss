@@ -1,0 +1,26 @@
+.barometer-message {
+  @include leader(0.25);
+  @include trailer(0.25);
+}
+
+.barometer .current-number {
+  font-style: normal;
+}
+
+.barometer .bar {
+  @include border-radius(10px);
+  height: 30px;
+  background: #FFF;
+  border: solid 1px $light-gray;
+  .barometer-progress {
+    @include border-radius(10px 0 0 10px);
+    display: block;
+    height: 30px;
+    background: red;
+    width: 0%; // hide intitally
+
+    &.js-completed {
+      @include border-radius(10px);
+    }
+  }
+}
