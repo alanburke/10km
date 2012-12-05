@@ -17,4 +17,7 @@ $(document).ready(function(){
       news.render(data);
     });
   }
+
+  barometer_animation();
+
 });
