@@ -1261,3 +1261,31 @@ textarea {
   -o-border-radius: 10px;
   border-radius: 10px;
 }
+
+/* line 1, ../sass/modules/_sponsors.scss */
+ul.sponsors {
+  list-style: none;
+  overflow: hidden;
+  *zoom: 1;
+  padding: 0;
+  margin: 5px auto;
+  background-color: #FFF;
+}
+/* line 11, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_bullets.scss */
+ul.sponsors li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0;
+}
+/* line 7, ../sass/modules/_sponsors.scss */
+ul.sponsors li {
+  float: left;
+  margin: 5px;
+  height: 100px;
+  line-height: 100px;
+  vertical-align: middle;
+}
+/* line 13, ../sass/modules/_sponsors.scss */
+ul.sponsors li img {
+  width: 150px;
+}
