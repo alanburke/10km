@@ -1,0 +1,17 @@
+ul.sponsors {
+  @include no-bullets;
+  @include clearfix;
+  padding: 0;
+  margin: 5px auto;
+  background-color: #FFF;
+  li {
+    float: left;
+    margin: 5px;
+    height: 100px;
+    line-height: 100px;
+    vertical-align: middle;
+    img {
+      width: 150px;
+    }
+  }
+}
