@@ -684,6 +684,11 @@ table {
   max-width: 1040px;
 }
 
+/* line 58, ../sass/modules/_layout.scss */
+.main-content img {
+  max-width: 100%;
+}
+
 /* Colours */
 /* line 16, ../sass/modules/_base.scss */
 body {
