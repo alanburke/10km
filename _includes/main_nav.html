@@ -14,7 +14,6 @@
   {% capture clean_latest_year %}{{ site.latest_year | escape }}{% endcapture %}
   {% if race_year == clean_latest_year %}
     {% assign news = true %}
-    {% assign enter = true %}
     {% assign poll = false %}
   {% endif %}
 {% endfor %}
