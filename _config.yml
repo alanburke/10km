@@ -1,5 +1,8 @@
 title: Fields of Athenry 10km
 permalink: /:year/:title.html
 url: http://10km.athenryac.com
-exclude: Rakefile, Guardfile, sass
-latest_year: 2012
+exclude: [Rakefile, Guardfile, sass]
+latest_year: 2013
+markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables"]
