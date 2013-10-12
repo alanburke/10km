@@ -1,55 +1,13 @@
-{% capture race_year %}{{ page.date | date: "%Y" }}{% endcapture %}
-
-{% for post in site.posts %}
-  {% capture post_year %}{{ post.date | date: "%Y" }}{% endcapture %}
-  {% if post_year == race_year %}
-    {% if post.section == 'course_map' %} {% assign course_map = true %} {% endif %}
-    {% if post.section == 'instructions' %} {% assign instructions = true %} {% endif %}
-    {% if post.section == 'results' %} {% assign results = true %} {% endif %}
-    {% if post.section == 'photos' %} {% assign photos = true %} {% endif %}
-    {% if post.section == 'video' %} {% assign video = true %} {% endif %}
-    {% if post.section == 'booklet' %} {% assign booklet = true %} {% endif %}
-    {% if post.section == 'hat' %} {% assign hat = true %} {% endif %}
-  {% endif %}
-  {% capture clean_latest_year %}{{ site.latest_year | escape }}{% endcapture %}
-  {% if race_year == clean_latest_year %}
-    {% assign news = true %}
-    {% assign poll = false %}
-    {% assign enter = true %}
-  {% endif %}
-{% endfor %}
+{% assign instructions = false %}
 <nav role="navigation">
   <ul>
-      <li><a href="/{{ race_year }}">{{ race_year }}</a></li>
-    {% if news %}
+      <li><a href="/index.html">Home</a></li>
       <li><a href="/news.html">News</a></li>
-    {% endif %}
-    {% if enter %}
       <li><a href="/entry.html">Enter</a></li>
-    {% endif %}
-    {% if poll %}
-      <li><a href="http://www.athenryac.com/what-colour-hat-fields-athenry-10km-2012">Hat Poll</a></li>
-    {% endif %}
-    {% if course_map %}
-      <li><a href="/{{ race_year }}/course_map.html">Course Map</a></li>
-    {% endif %}
+      <li><a href="http://www.athenryac.com/what-colour-hat-fields-athenry-10km-2013">Hat Poll</a></li>
+      <li><a href="/course.html">Course Map</a></li>
     {% if instructions %}
-      <li><a href="/{{ race_year }}/instructions.html">Instructions</a></li>
-    {% endif %}
-    {% if results %}
-      <li><a href="/{{ race_year }}/results.html">Results</a></li>
-    {% endif %}
-    {% if photos %}
-      <li><a href="/{{ race_year }}/photos.html">Photos</a></li>
-    {% endif %}
-    {% if booklet %}
-      <li><a href="/{{ race_year }}/booklet.html">Booklet</a></li>
-    {% endif %}
-    {% if hat %}
-      <li><a href="/{{ race_year }}/hat.html">Hat</a></li>
-    {% endif %}
-    {% if video %}
-      <li><a href="/{{ race_year }}/video.html">Video</a></li>
+      <li><a href="/instructions.html">Instructions</a></li>
     {% endif %}
   </ul>
 </nav>
