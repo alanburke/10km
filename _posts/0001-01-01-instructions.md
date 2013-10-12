@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Race day instructions
-permalink: 2012/instructions.html
+permalink: instructions.html
 section: instructions
 published: false
 ---
