@@ -28,6 +28,10 @@
           {% include main_nav.html %}
         </div>
 
+        <div class="secondary-nav">
+          {% include secondary_nav.html %}
+        </div>
+
         <div class="main">
           <section class="main-content">
 
@@ -35,6 +39,7 @@
 
             <h1>{% if page.title %} {{ page.title }} {% endif %}</h1>
             {{ content }}
+
 
           {% include other-sponsors.html %}
 
