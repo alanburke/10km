@@ -21,6 +21,12 @@ $container-style: fluid;
       position: relative;
     }
   }
+  .secondary-nav {
+    ul {
+      @include horizontal-list();
+      position: relative;
+    }
+  }
   ul.image-gallery {
     @include no-bullets;
     @include clearfix;
