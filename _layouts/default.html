@@ -15,12 +15,11 @@
 
         <script src="/js/vendor/modernizr-2.6.1.min.js"></script>
     </head>
-    {% capture race_year %}{{ page.date | date: "%Y" }}{% endcapture %}
-    <body class="year-{{ race_year }} {{ page.section }}">
+    <body class="year-{{ page.race_year }} {{ page.section }}">
       <div class="page">
         <div class="banner">
           <header>
-            <h2 class="site-title">{{ site.title }} <span class="current-year">{{ race_year }}</span></h2>
+            <h2 class="site-title">{{ site.title }} <span class="current-year">{{ page.race_year }}</span></h2>
           </header>
 
         </div>
