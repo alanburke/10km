@@ -1,1 +1,1327 @@
-/*! normalize.css v1.0.1 | MIT License | git.io/normalize */article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary{display:block}audio,canvas,video{display:inline-block;*display:inline;*zoom:1}audio:not([controls]){display:none;height:0}[hidden]{display:none}html{font-size:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}html,button,input,select,textarea{font-family:sans-serif}body{margin:0}a:focus{outline:thin dotted}a:active,a:hover{outline:0}h1{font-size:2em;margin:0.67em 0}h2{font-size:1.5em;margin:0.83em 0}h3{font-size:1.17em;margin:1em 0}h4{font-size:1em;margin:1.33em 0}h5{font-size:0.83em;margin:1.67em 0}h6{font-size:0.75em;margin:2.33em 0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}blockquote{margin:1em 40px}dfn{font-style:italic}mark{background:#ff0;color:#000}p,pre{margin:1em 0}code,kbd,pre,samp{font-family:monospace, serif;_font-family:'courier new', monospace;font-size:1em}pre{white-space:pre;white-space:pre-wrap;word-wrap:break-word}q{quotes:none}q:before,q:after{content:'';content:none}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}dl,menu,ol,ul{margin:1em 0}dd{margin:0 0 0 40px}menu,ol,ul{padding:0 0 0 40px}nav ul,nav ol{list-style:none;list-style-image:none}img{border:0;-ms-interpolation-mode:bicubic}svg:not(:root){overflow:hidden}figure{margin:0}form{margin:0}fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:0.35em 0.625em 0.75em}legend{border:0;padding:0;white-space:normal;*margin-left:-7px}button,input,select,textarea{font-size:100%;margin:0;vertical-align:baseline;*vertical-align:middle}button,input{line-height:normal}button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer;*overflow:visible}button[disabled],input[disabled]{cursor:default}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0;*height:13px;*width:13px}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}textarea{overflow:auto;vertical-align:top}table{border-collapse:collapse;border-spacing:0}.element-invisible,.year-nav h3{position:absolute !important;clip:rect(1px 1px 1px 1px);clip:rect(1px, 1px, 1px, 1px)}.element-invisible.element-focusable:active,.year-nav h3.element-focusable:active,.element-invisible.element-focusable:focus,.year-nav h3.element-focusable:focus{position:static !important;clip:auto}.no-link-style{color:inherit;text-decoration:none;cursor:pointer}.page{*zoom:1;padding-left:1em;padding-right:1em;margin-left:auto;margin-right:auto}.page:after{content:"";display:table;clear:both}.page .banner{overflow:hidden;*zoom:1}.page .page-nav ul{margin:0;padding:0;border:0;overflow:hidden;*zoom:1;position:relative}.page .page-nav ul li{list-style-image:none;list-style-type:none;margin-left:0;white-space:nowrap;display:inline;float:left;padding-left:4px;padding-right:4px}.page .page-nav ul li:first-child,.page .page-nav ul li.first{padding-left:0}.page .page-nav ul li:last-child{padding-right:0}.page .page-nav ul li.last{padding-right:0}.page .secondary-nav ul{margin:0;padding:0;border:0;overflow:hidden;*zoom:1;position:relative}.page .secondary-nav ul li{list-style-image:none;list-style-type:none;margin-left:0;white-space:nowrap;display:inline;float:left;padding-left:4px;padding-right:4px}.page .secondary-nav ul li:first-child,.page .secondary-nav ul li.first{padding-left:0}.page .secondary-nav ul li:last-child{padding-right:0}.page .secondary-nav ul li.last{padding-right:0}.page ul.image-gallery{list-style:none;overflow:hidden;*zoom:1;padding:0;margin:0}.page ul.image-gallery li{list-style-image:none;list-style-type:none;margin-left:0}.page ul.image-gallery li{float:left;margin:1px}@media (min-width: 0em) and (max-width: 30em){.year-nav ul{margin:0;padding:0;border:0;overflow:hidden}.year-nav ul li{list-style-image:none;list-style-type:none;margin-left:0;white-space:nowrap;display:inline;float:left;padding-left:4px;padding-right:4px}.year-nav ul li:first-child,.year-nav ul li.first{padding-left:0}.year-nav ul li:last-child{padding-right:0}.year-nav ul li.last{padding-right:0}}@media (min-width: 30em){.year-nav{width:14.28571%;float:left;margin-right:2.85714%}.main-content{width:82.85714%;float:right;margin-right:0}.supplementary{clear:both}}@media (min-width: 50em){body .page{max-width:1040px}}.lt-1e9 body .page{max-width:1040px}.main-content img{max-width:100%}body{background:#ccc url(../images/style/striped_lens/striped_lens.png) repeat 0 0;color:#0e203b}body .page{background:transparent}h2.site-title{color:#b32d47;color:rgba(179,45,71,0.75);-webkit-transition-duration:0.25s;-moz-transition-duration:0.25s;-o-transition-duration:0.25s;transition-duration:0.25s}h2.site-title:hover{color:#b32d47;color:#b32d47}.page-nav{background-color:#848d9a;background-color:rgba(14,32,59,0.5)}.year-nav ul{padding:0}body{font:100%/1.4 normal "Helvetica Neue", Helvetica, Arial, sans-serif}h1,h2,h3,h4,h5,h6{font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;color:#b32d47;color:rgba(179,45,71,0.75)}a{color:#b32d47}a:hover{color:#d0435e}h2.site-title{text-align:center;font-size:1.5rem}@media (min-width: 30em){h2.site-title{font-size:2em}}@media (min-width: 42em){h2.site-title{font-size:3em}}@media (min-width: 55em){h2.site-title{font-size:4em}.page .banner{height:5em}}h2.site-title{margin:0}.lt-ie9 h2.site-title{font-size:4em}.page-nav li{margin:5px}.page-nav a{line-height:2;padding:1px 10px;background-color:#aab2c0;background-color:rgba(170,178,192,0.75);color:#fff;color:rgba(255,255,255,0.75);display:block;text-decoration:none;font-weight:bold;text-transform:uppercase}.current-year{font-size:0.9em;color:#0e203b;color:rgba(14,32,59,0.5);font-weight:bold}.year-nav li{color:#aab2c0;color:rgba(170,178,192,0.75);font-weight:bold;display:block;padding:0.25em;font-size:1.5rem}.year-nav a{color:#0e203b;color:rgba(14,32,59,0.5);display:block;text-decoration:none}.year-nav a:hover{text-decoration:underline}#colorbox,#cboxOverlay,#cboxWrapper{position:absolute;top:0;left:0;z-index:9999;overflow:hidden}#cboxOverlay{position:fixed;width:100%;height:100%}#cboxMiddleLeft,#cboxBottomLeft{clear:left}#cboxContent{position:relative}#cboxLoadedContent{overflow:auto}#cboxTitle{margin:0}#cboxLoadingOverlay,#cboxLoadingGraphic{position:absolute;top:0;left:0;width:100%;height:100%}#cboxPrevious,#cboxNext,#cboxClose,#cboxSlideshow{cursor:pointer}.cboxPhoto{float:left;margin:auto;border:0;display:block;max-width:none}.cboxIframe{width:100%;height:100%;display:block;border:0}#colorbox,#cboxContent,#cboxLoadedContent{box-sizing:content-box}#cboxOverlay{background:#000}#cboxContent{margin-top:20px}.cboxIframe{background:#fff}#cboxError{padding:50px;border:1px solid #ccc}#cboxLoadedContent{border:5px solid #000;background:#fff}#cboxTitle{position:absolute;top:-20px;left:0;color:#ccc}#cboxCurrent{position:absolute;top:-20px;right:0px;color:#ccc}#cboxSlideshow{position:absolute;top:-20px;right:90px;color:#fff}#cboxPrevious{position:absolute;top:50%;left:5px;margin-top:-32px;background:url(/images/controls.png) no-repeat top left;width:28px;height:65px;text-indent:-9999px}#cboxPrevious:hover{background-position:bottom left}#cboxNext{position:absolute;top:50%;right:5px;margin-top:-32px;background:url(/images/controls.png) no-repeat top right;width:28px;height:65px;text-indent:-9999px}#cboxNext:hover{background-position:bottom right}#cboxLoadingOverlay{background:#000}#cboxLoadingGraphic{background:url(images/loading.gif) no-repeat center center}#cboxClose{position:absolute;top:5px;right:5px;display:block;background:url(/images/controls.png) no-repeat top center;width:38px;height:19px;text-indent:-9999px}#cboxClose:hover{background-position:bottom center}::-moz-selection{background:#b3d4fc;text-shadow:none}::selection{background:#b3d4fc;text-shadow:none}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}img{vertical-align:middle}fieldset{border:0;margin:0;padding:0}textarea{resize:vertical}.ir{background-color:transparent;border:0;overflow:hidden;*text-indent:-9999px}.ir:before{content:"";display:block;width:0;height:100%}.hidden{display:none !important;visibility:hidden}.visuallyhidden{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.visuallyhidden.focusable:active,.visuallyhidden.focusable:focus{clip:auto;height:auto;margin:0;overflow:visible;position:static;width:auto}.invisible{visibility:hidden}.clearfix:before,.clearfix:after{content:" ";display:table}.clearfix:after{clear:both}.clearfix{*zoom:1}@media print{*{background:transparent !important;color:#000 !important;box-shadow:none !important;text-shadow:none !important}a,a:visited{text-decoration:underline}a[href]:after{content:" (" attr(href) ")"}abbr[title]:after{content:" (" attr(title) ")"}.ir a:after,a[href^="javascript:"]:after,a[href^="#"]:after{content:""}pre,blockquote{border:1px solid #999;page-break-inside:avoid}thead{display:table-header-group}tr,img{page-break-inside:avoid}img{max-width:100% !important}@page{margin:0.5cm}p,h2,h3{orphans:3;widows:3}h2,h3{page-break-after:avoid}}.barometer-message{margin-top:0.375em;margin-bottom:0.375em}.barometer .current-number{font-style:normal}.barometer .bar{-webkit-border-radius:10px;-moz-border-radius:10px;-ms-border-radius:10px;-o-border-radius:10px;border-radius:10px;height:30px;background:#FFF;border:solid 1px #aab2c0}.barometer .bar .barometer-progress{-webkit-border-radius:10px 0 0 10px;-moz-border-radius:10px 0 0 10px;-ms-border-radius:10px 0 0 10px;-o-border-radius:10px 0 0 10px;border-radius:10px 0 0 10px;display:block;height:30px;background:red;width:0%}.barometer .bar .barometer-progress.js-completed{-webkit-border-radius:10px;-moz-border-radius:10px;-ms-border-radius:10px;-o-border-radius:10px;border-radius:10px}ul.sponsors{list-style:none;overflow:hidden;*zoom:1;padding:0;margin:5px auto;background-color:#FFF}ul.sponsors li{list-style-image:none;list-style-type:none;margin-left:0}ul.sponsors li{float:left;margin:5px;height:100px;line-height:100px;vertical-align:middle}ul.sponsors li img{width:150px}
+/*! normalize.css v1.0.1 | MIT License | git.io/normalize */
+/* ==========================================================================
+   HTML5 display definitions
+   ========================================================================== */
+/*
+ * Corrects `block` display not defined in IE 6/7/8/9 and Firefox 3.
+ */
+/* line 21, ../sass/modules/_normalize.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/*
+ * Corrects `inline-block` display not defined in IE 6/7/8/9 and Firefox 3.
+ */
+/* line 31, ../sass/modules/_normalize.scss */
+audio,
+canvas,
+video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+/*
+ * Prevents modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+/* line 42, ../sass/modules/_normalize.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/*
+ * Addresses styling for `hidden` attribute not present in IE 7/8/9, Firefox 3,
+ * and Safari 4.
+ * Known issue: no IE 6 support.
+ */
+/* line 53, ../sass/modules/_normalize.scss */
+[hidden] {
+  display: none;
+}
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+/*
+ * 1. Corrects text resizing oddly in IE 6/7 when body `font-size` is set using
+ *    `em` units.
+ * 2. Prevents iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+/* line 68, ../sass/modules/_normalize.scss */
+html {
+  font-size: 100%;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/*
+ * Addresses `font-family` inconsistency between `textarea` and other form
+ * elements.
+ */
+/* line 83, ../sass/modules/_normalize.scss */
+html,
+button,
+input,
+select,
+textarea {
+  font-family: sans-serif;
+}
+
+/*
+ * Addresses margins handled incorrectly in IE 6/7.
+ */
+/* line 91, ../sass/modules/_normalize.scss */
+body {
+  margin: 0;
+}
+
+/* ==========================================================================
+   Links
+   ========================================================================== */
+/*
+ * Addresses `outline` inconsistency between Chrome and other browsers.
+ */
+/* line 103, ../sass/modules/_normalize.scss */
+a:focus {
+  outline: thin dotted;
+}
+
+/*
+ * Improves readability when focused and also mouse hovered in all browsers.
+ */
+/* line 112, ../sass/modules/_normalize.scss */
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+/*
+ * Addresses font sizes and margins set differently in IE 6/7.
+ * Addresses font sizes within `section` and `article` in Firefox 4+, Safari 5,
+ * and Chrome.
+ */
+/* line 126, ../sass/modules/_normalize.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* line 131, ../sass/modules/_normalize.scss */
+h2 {
+  font-size: 1.5em;
+  margin: 0.83em 0;
+}
+
+/* line 136, ../sass/modules/_normalize.scss */
+h3 {
+  font-size: 1.17em;
+  margin: 1em 0;
+}
+
+/* line 141, ../sass/modules/_normalize.scss */
+h4 {
+  font-size: 1em;
+  margin: 1.33em 0;
+}
+
+/* line 146, ../sass/modules/_normalize.scss */
+h5 {
+  font-size: 0.83em;
+  margin: 1.67em 0;
+}
+
+/* line 151, ../sass/modules/_normalize.scss */
+h6 {
+  font-size: 0.75em;
+  margin: 2.33em 0;
+}
+
+/*
+ * Addresses styling not present in IE 7/8/9, Safari 5, and Chrome.
+ */
+/* line 160, ../sass/modules/_normalize.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/*
+ * Addresses style set to `bolder` in Firefox 3+, Safari 4/5, and Chrome.
+ */
+/* line 169, ../sass/modules/_normalize.scss */
+b,
+strong {
+  font-weight: bold;
+}
+
+/* line 173, ../sass/modules/_normalize.scss */
+blockquote {
+  margin: 1em 40px;
+}
+
+/*
+ * Addresses styling not present in Safari 5 and Chrome.
+ */
+/* line 181, ../sass/modules/_normalize.scss */
+dfn {
+  font-style: italic;
+}
+
+/*
+ * Addresses styling not present in IE 6/7/8/9.
+ */
+/* line 189, ../sass/modules/_normalize.scss */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/*
+ * Addresses margins set differently in IE 6/7.
+ */
+/* line 199, ../sass/modules/_normalize.scss */
+p,
+pre {
+  margin: 1em 0;
+}
+
+/*
+ * Corrects font family set oddly in IE 6, Safari 4/5, and Chrome.
+ */
+/* line 210, ../sass/modules/_normalize.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  _font-family: 'courier new', monospace;
+  font-size: 1em;
+}
+
+/*
+ * Improves readability of pre-formatted text in all browsers.
+ */
+/* line 220, ../sass/modules/_normalize.scss */
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+/*
+ * Addresses CSS quotes not supported in IE 6/7.
+ */
+/* line 230, ../sass/modules/_normalize.scss */
+q {
+  quotes: none;
+}
+
+/*
+ * Addresses `quotes` property not supported in Safari 4.
+ */
+/* line 239, ../sass/modules/_normalize.scss */
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+/*
+ * Addresses inconsistent and variable font size in all browsers.
+ */
+/* line 248, ../sass/modules/_normalize.scss */
+small {
+  font-size: 80%;
+}
+
+/*
+ * Prevents `sub` and `sup` affecting `line-height` in all browsers.
+ */
+/* line 257, ../sass/modules/_normalize.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 264, ../sass/modules/_normalize.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 268, ../sass/modules/_normalize.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* ==========================================================================
+   Lists
+   ========================================================================== */
+/*
+ * Addresses margins set differently in IE 6/7.
+ */
+/* line 283, ../sass/modules/_normalize.scss */
+dl,
+menu,
+ol,
+ul {
+  margin: 1em 0;
+}
+
+/* line 287, ../sass/modules/_normalize.scss */
+dd {
+  margin: 0 0 0 40px;
+}
+
+/*
+ * Addresses paddings set differently in IE 6/7.
+ */
+/* line 297, ../sass/modules/_normalize.scss */
+menu,
+ol,
+ul {
+  padding: 0 0 0 40px;
+}
+
+/*
+ * Corrects list images handled incorrectly in IE 7.
+ */
+/* line 306, ../sass/modules/_normalize.scss */
+nav ul,
+nav ol {
+  list-style: none;
+  list-style-image: none;
+}
+
+/* ==========================================================================
+   Embedded content
+   ========================================================================== */
+/*
+ * 1. Removes border when inside `a` element in IE 6/7/8/9 and Firefox 3.
+ * 2. Improves image quality when scaled in IE 7.
+ */
+/* line 320, ../sass/modules/_normalize.scss */
+img {
+  border: 0;
+  /* 1 */
+  -ms-interpolation-mode: bicubic;
+  /* 2 */
+}
+
+/*
+ * Corrects overflow displayed oddly in IE 9.
+ */
+/* line 329, ../sass/modules/_normalize.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* ==========================================================================
+   Figures
+   ========================================================================== */
+/*
+ * Addresses margin not present in IE 6/7/8/9, Safari 5, and Opera 11.
+ */
+/* line 341, ../sass/modules/_normalize.scss */
+figure {
+  margin: 0;
+}
+
+/* ==========================================================================
+   Forms
+   ========================================================================== */
+/*
+ * Corrects margin displayed oddly in IE 6/7.
+ */
+/* line 353, ../sass/modules/_normalize.scss */
+form {
+  margin: 0;
+}
+
+/*
+ * Define consistent border, margin, and padding.
+ */
+/* line 361, ../sass/modules/_normalize.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/*
+ * 1. Corrects color not being inherited in IE 6/7/8/9.
+ * 2. Corrects text not wrapping in Firefox 3.
+ * 3. Corrects alignment displayed oddly in IE 6/7.
+ */
+/* line 373, ../sass/modules/_normalize.scss */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  white-space: normal;
+  /* 2 */
+  *margin-left: -7px;
+  /* 3 */
+}
+
+/*
+ * 1. Corrects font size not being inherited in all browsers.
+ * 2. Addresses margins set differently in IE 6/7, Firefox 3+, Safari 5,
+ *    and Chrome.
+ * 3. Improves appearance and consistency in all browsers.
+ */
+/* line 390, ../sass/modules/_normalize.scss */
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+  vertical-align: baseline;
+  /* 3 */
+  *vertical-align: middle;
+  /* 3 */
+}
+
+/*
+ * Addresses Firefox 3+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+/* line 403, ../sass/modules/_normalize.scss */
+button,
+input {
+  line-height: normal;
+}
+
+/*
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Corrects inability to style clickable `input` types in iOS.
+ * 3. Improves usability and consistency of cursor style between image-type
+ *    `input` and others.
+ * 4. Removes inner spacing in IE 7 without affecting normal text inputs.
+ *    Known issue: inner spacing remains in IE 6.
+ */
+/* line 420, ../sass/modules/_normalize.scss */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */
+  *overflow: visible;
+  /* 4 */
+}
+
+/*
+ * Re-set default cursor for disabled elements.
+ */
+/* line 431, ../sass/modules/_normalize.scss */
+button[disabled],
+input[disabled] {
+  cursor: default;
+}
+
+/*
+ * 1. Addresses box sizing set to content-box in IE 8/9.
+ * 2. Removes excess padding in IE 8/9.
+ * 3. Removes excess padding in IE 7.
+ *    Known issue: excess padding remains in IE 6.
+ */
+/* line 443, ../sass/modules/_normalize.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+  *height: 13px;
+  /* 3 */
+  *width: 13px;
+  /* 3 */
+}
+
+/*
+ * 1. Addresses `appearance` set to `searchfield` in Safari 5 and Chrome.
+ * 2. Addresses `box-sizing` set to `border-box` in Safari 5 and Chrome
+ *    (include `-moz` to future-proof).
+ */
+/* line 456, ../sass/modules/_normalize.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* 2 */
+  box-sizing: content-box;
+}
+
+/*
+ * Removes inner padding and search cancel button in Safari 5 and Chrome
+ * on OS X.
+ */
+/* line 469, ../sass/modules/_normalize.scss */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/*
+ * Removes inner padding and border in Firefox 3+.
+ */
+/* line 478, ../sass/modules/_normalize.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/*
+ * 1. Removes default vertical scrollbar in IE 6/7/8/9.
+ * 2. Improves readability and alignment in all browsers.
+ */
+/* line 488, ../sass/modules/_normalize.scss */
+textarea {
+  overflow: auto;
+  /* 1 */
+  vertical-align: top;
+  /* 2 */
+}
+
+/* ==========================================================================
+   Tables
+   ========================================================================== */
+/*
+ * Remove most spacing between table cells.
+ */
+/* line 501, ../sass/modules/_normalize.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/** Mixins
+---------------------------------------- */
+/** Extend
+---------------------------------------- */
+/* line 33, ../sass/modules/_helpers.scss */
+.element-invisible, .year-nav h3 {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+}
+/* line 38, ../sass/modules/_helpers.scss */
+.element-invisible.element-focusable:active, .year-nav h3.element-focusable:active, .element-invisible.element-focusable:focus, .year-nav h3.element-focusable:focus {
+  position: static !important;
+  clip: auto;
+}
+
+/* line 43, ../sass/modules/_helpers.scss */
+.no-link-style {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* line 10, ../sass/modules/_layout.scss */
+.page {
+  *zoom: 1;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 38, ../../../../../../home/web/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+.page:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 13, ../sass/modules/_layout.scss */
+.page .banner {
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 19, ../sass/modules/_layout.scss */
+.page .page-nav ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  *zoom: 1;
+  position: relative;
+}
+/* line 60, ../../../../../../home/web/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+.page .page-nav ul li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0;
+  white-space: nowrap;
+  display: inline;
+  float: left;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+/* line 48, ../../../../../../home/web/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+.page .page-nav ul li:first-child, .page .page-nav ul li.first {
+  padding-left: 0;
+}
+/* line 49, ../../../../../../home/web/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+.page .page-nav ul li:last-child {
+  padding-right: 0;
+}
+/* line 50, ../../../../../../home/web/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+.page .page-nav ul li.last {
+  padding-right: 0;
+}
+/* line 25, ../sass/modules/_layout.scss */
+.page .secondary-nav ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  *zoom: 1;
+  position: relative;
+}
+/* line 60, ../../../../../../home/web/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+.page .secondary-nav ul li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0;
+  white-space: nowrap;
+  display: inline;
+  float: left;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+/* line 48, ../../../../../../home/web/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+.page .secondary-nav ul li:first-child, .page .secondary-nav ul li.first {
+  padding-left: 0;
+}
+/* line 49, ../../../../../../home/web/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+.page .secondary-nav ul li:last-child {
+  padding-right: 0;
+}
+/* line 50, ../../../../../../home/web/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+.page .secondary-nav ul li.last {
+  padding-right: 0;
+}
+/* line 30, ../sass/modules/_layout.scss */
+.page ul.image-gallery {
+  list-style: none;
+  overflow: hidden;
+  *zoom: 1;
+  padding: 0;
+  margin: 0;
+}
+/* line 11, ../../../../../../home/web/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_bullets.scss */
+.page ul.image-gallery li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0;
+}
+/* line 35, ../sass/modules/_layout.scss */
+.page ul.image-gallery li {
+  float: left;
+  margin: 1px;
+}
+
+@media (min-width: 0em) and (max-width: 30em) {
+  /* line 42, ../sass/modules/_layout.scss */
+  .year-nav ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+  }
+  /* line 60, ../../../../../../home/web/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+  .year-nav ul li {
+    list-style-image: none;
+    list-style-type: none;
+    margin-left: 0;
+    white-space: nowrap;
+    display: inline;
+    float: left;
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+  /* line 48, ../../../../../../home/web/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+  .year-nav ul li:first-child, .year-nav ul li.first {
+    padding-left: 0;
+  }
+  /* line 49, ../../../../../../home/web/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+  .year-nav ul li:last-child {
+    padding-right: 0;
+  }
+  /* line 50, ../../../../../../home/web/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+  .year-nav ul li.last {
+    padding-right: 0;
+  }
+}
+@media (min-width: 30em) {
+  /* line 47, ../sass/modules/_layout.scss */
+  .year-nav {
+    width: 14.28571%;
+    float: left;
+    margin-right: 2.85714%;
+  }
+
+  /* line 50, ../sass/modules/_layout.scss */
+  .main-content {
+    width: 82.85714%;
+    float: right;
+    margin-right: 0;
+  }
+
+  /* line 53, ../sass/modules/_layout.scss */
+  .supplementary {
+    clear: both;
+  }
+}
+@media (min-width: 50em) {
+  /* line 59, ../sass/modules/_layout.scss */
+  body .page {
+    max-width: 1040px;
+  }
+}
+/* line 59, ../sass/modules/_layout.scss */
+.lt-1e9 body .page {
+  max-width: 1040px;
+}
+
+/* line 64, ../sass/modules/_layout.scss */
+.main-content img {
+  max-width: 100%;
+}
+
+/* Colours */
+/* line 16, ../sass/modules/_base.scss */
+body {
+  background: #cccccc url(../images/style/striped_lens/striped_lens.png) repeat 0 0;
+  color: #0e203b;
+}
+/* line 20, ../sass/modules/_base.scss */
+body .page {
+  background: transparent;
+}
+
+/* line 25, ../sass/modules/_base.scss */
+h2.site-title {
+  color: #b32d47;
+  color: rgba(179, 45, 71, 0.75);
+  -webkit-transition-duration: 0.25s;
+  -moz-transition-duration: 0.25s;
+  -o-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+}
+/* line 29, ../sass/modules/_base.scss */
+h2.site-title:hover {
+  color: #b32d47;
+  color: #b32d47;
+}
+
+/* line 34, ../sass/modules/_base.scss */
+.page-nav {
+  background-color: #848d9a;
+  background-color: rgba(14, 32, 59, 0.5);
+}
+
+/* line 42, ../sass/modules/_base.scss */
+.year-nav ul {
+  padding: 0;
+}
+
+/* line 2, ../sass/modules/_type.scss */
+body {
+  font: 100%/1.4 normal "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* line 5, ../sass/modules/_type.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #b32d47;
+  color: rgba(179, 45, 71, 0.75);
+}
+
+/* line 10, ../sass/modules/_type.scss */
+a {
+  color: #b32d47;
+}
+/* line 24, ../../../../../../home/web/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+a:hover {
+  color: #d0435e;
+}
+
+/* line 13, ../sass/modules/_type.scss */
+h2.site-title {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+@media (min-width: 30em) {
+  /* line 18, ../sass/modules/_type.scss */
+  h2.site-title {
+    font-size: 2em;
+  }
+}
+@media (min-width: 42em) {
+  /* line 23, ../sass/modules/_type.scss */
+  h2.site-title {
+    font-size: 3em;
+  }
+}
+@media (min-width: 55em) {
+  /* line 28, ../sass/modules/_type.scss */
+  h2.site-title {
+    font-size: 4em;
+  }
+
+  /* line 31, ../sass/modules/_type.scss */
+  .page .banner {
+    height: 5em;
+  }
+}
+/* line 35, ../sass/modules/_type.scss */
+h2.site-title {
+  margin: 0;
+}
+/* line 38, ../sass/modules/_type.scss */
+.lt-ie9 h2.site-title {
+  font-size: 4em;
+}
+
+/* line 43, ../sass/modules/_type.scss */
+.page-nav li {
+  margin: 5px;
+}
+/* line 46, ../sass/modules/_type.scss */
+.page-nav a {
+  line-height: 2;
+  padding: 1px 10px;
+  background-color: #aab2c0;
+  background-color: rgba(170, 178, 192, 0.75);
+  color: white;
+  color: rgba(255, 255, 255, 0.75);
+  display: block;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* line 59, ../sass/modules/_type.scss */
+.current-year {
+  font-size: 0.9em;
+  color: #0e203b;
+  color: rgba(14, 32, 59, 0.5);
+  font-weight: bold;
+}
+
+/* line 66, ../sass/modules/_type.scss */
+.year-nav li {
+  color: #aab2c0;
+  color: rgba(170, 178, 192, 0.75);
+  font-weight: bold;
+  display: block;
+  padding: 0.25em;
+  font-size: 1.5rem;
+}
+/* line 74, ../sass/modules/_type.scss */
+.year-nav a {
+  color: #0e203b;
+  color: rgba(14, 32, 59, 0.5);
+  display: block;
+  text-decoration: none;
+}
+/* line 79, ../sass/modules/_type.scss */
+.year-nav a:hover {
+  text-decoration: underline;
+}
+
+/*
+    ColorBox Core Style:
+    The following CSS is consistent between example themes and should not be altered.
+*/
+/* line 5, ../sass/modules/_colorbox.scss */
+#colorbox, #cboxOverlay, #cboxWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  overflow: hidden;
+}
+
+/* line 6, ../sass/modules/_colorbox.scss */
+#cboxOverlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 7, ../sass/modules/_colorbox.scss */
+#cboxMiddleLeft, #cboxBottomLeft {
+  clear: left;
+}
+
+/* line 8, ../sass/modules/_colorbox.scss */
+#cboxContent {
+  position: relative;
+}
+
+/* line 9, ../sass/modules/_colorbox.scss */
+#cboxLoadedContent {
+  overflow: auto;
+}
+
+/* line 10, ../sass/modules/_colorbox.scss */
+#cboxTitle {
+  margin: 0;
+}
+
+/* line 11, ../sass/modules/_colorbox.scss */
+#cboxLoadingOverlay, #cboxLoadingGraphic {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 12, ../sass/modules/_colorbox.scss */
+#cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow {
+  cursor: pointer;
+}
+
+/* line 13, ../sass/modules/_colorbox.scss */
+.cboxPhoto {
+  float: left;
+  margin: auto;
+  border: 0;
+  display: block;
+  max-width: none;
+}
+
+/* line 14, ../sass/modules/_colorbox.scss */
+.cboxIframe {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border: 0;
+}
+
+/* line 15, ../sass/modules/_colorbox.scss */
+#colorbox, #cboxContent, #cboxLoadedContent {
+  box-sizing: content-box;
+}
+
+/* 
+    User Style:
+    Change the following styles to modify the appearance of ColorBox.  They are
+    ordered & tabbed in a way that represents the nesting of the generated HTML.
+*/
+/* line 22, ../sass/modules/_colorbox.scss */
+#cboxOverlay {
+  background: #000;
+}
+
+/* line 24, ../sass/modules/_colorbox.scss */
+#cboxContent {
+  margin-top: 20px;
+}
+
+/* line 25, ../sass/modules/_colorbox.scss */
+.cboxIframe {
+  background: #fff;
+}
+
+/* line 26, ../sass/modules/_colorbox.scss */
+#cboxError {
+  padding: 50px;
+  border: 1px solid #ccc;
+}
+
+/* line 27, ../sass/modules/_colorbox.scss */
+#cboxLoadedContent {
+  border: 5px solid #000;
+  background: #fff;
+}
+
+/* line 28, ../sass/modules/_colorbox.scss */
+#cboxTitle {
+  position: absolute;
+  top: -20px;
+  left: 0;
+  color: #ccc;
+}
+
+/* line 29, ../sass/modules/_colorbox.scss */
+#cboxCurrent {
+  position: absolute;
+  top: -20px;
+  right: 0px;
+  color: #ccc;
+}
+
+/* line 30, ../sass/modules/_colorbox.scss */
+#cboxSlideshow {
+  position: absolute;
+  top: -20px;
+  right: 90px;
+  color: #fff;
+}
+
+/* line 31, ../sass/modules/_colorbox.scss */
+#cboxPrevious {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  margin-top: -32px;
+  background: url(/images/controls.png) no-repeat top left;
+  width: 28px;
+  height: 65px;
+  text-indent: -9999px;
+}
+
+/* line 32, ../sass/modules/_colorbox.scss */
+#cboxPrevious:hover {
+  background-position: bottom left;
+}
+
+/* line 33, ../sass/modules/_colorbox.scss */
+#cboxNext {
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  margin-top: -32px;
+  background: url(/images/controls.png) no-repeat top right;
+  width: 28px;
+  height: 65px;
+  text-indent: -9999px;
+}
+
+/* line 34, ../sass/modules/_colorbox.scss */
+#cboxNext:hover {
+  background-position: bottom right;
+}
+
+/* line 35, ../sass/modules/_colorbox.scss */
+#cboxLoadingOverlay {
+  background: #000;
+}
+
+/* line 36, ../sass/modules/_colorbox.scss */
+#cboxLoadingGraphic {
+  background: url(images/loading.gif) no-repeat center center;
+}
+
+/* line 37, ../sass/modules/_colorbox.scss */
+#cboxClose {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  display: block;
+  background: url(/images/controls.png) no-repeat top center;
+  width: 38px;
+  height: 19px;
+  text-indent: -9999px;
+}
+
+/* line 38, ../sass/modules/_colorbox.scss */
+#cboxClose:hover {
+  background-position: bottom center;
+}
+
+/* ==========================================================================
+   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+   ========================================================================== */
+/* line 5, ../sass/modules/_main.scss */
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/* line 10, ../sass/modules/_main.scss */
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/* line 15, ../sass/modules/_main.scss */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/* line 24, ../sass/modules/_main.scss */
+img {
+  vertical-align: middle;
+}
+
+/* line 28, ../sass/modules/_main.scss */
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 34, ../sass/modules/_main.scss */
+textarea {
+  resize: vertical;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+/* line 74, ../sass/modules/_main.scss */
+.ir {
+  background-color: transparent;
+  border: 0;
+  overflow: hidden;
+  *text-indent: -9999px;
+}
+
+/* line 81, ../sass/modules/_main.scss */
+.ir:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 100%;
+}
+
+/* line 88, ../sass/modules/_main.scss */
+.hidden {
+  display: none !important;
+  visibility: hidden;
+}
+
+/* line 93, ../sass/modules/_main.scss */
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/* line 105, ../sass/modules/_main.scss */
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+/* line 114, ../sass/modules/_main.scss */
+.invisible {
+  visibility: hidden;
+}
+
+/* line 119, ../sass/modules/_main.scss */
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+/* line 124, ../sass/modules/_main.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 128, ../sass/modules/_main.scss */
+.clearfix {
+  *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+@media print {
+  /* line 137, ../sass/modules/_main.scss */
+  * {
+    background: transparent !important;
+    color: #000 !important;
+    /* Black prints faster: h5bp.com/s */
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  /* line 145, ../sass/modules/_main.scss */
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  /* line 149, ../sass/modules/_main.scss */
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  /* line 153, ../sass/modules/_main.scss */
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  /*
+   * Don't show links for images, or javascript/internal links
+   */
+  /* line 163, ../sass/modules/_main.scss */
+  .ir a:after,
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
+    content: "";
+  }
+
+  /* line 168, ../sass/modules/_main.scss */
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  /* line 173, ../sass/modules/_main.scss */
+  thead {
+    display: table-header-group;
+    /* h5bp.com/t */
+  }
+
+  /* line 178, ../sass/modules/_main.scss */
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  /* line 182, ../sass/modules/_main.scss */
+  img {
+    max-width: 100% !important;
+  }
+
+  @page {
+    margin: 0.5cm;
+}
+
+  /* line 192, ../sass/modules/_main.scss */
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  /* line 198, ../sass/modules/_main.scss */
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
+/* line 1, ../sass/modules/_barometer.scss */
+.barometer-message {
+  margin-top: 0.375em;
+  margin-bottom: 0.375em;
+}
+
+/* line 6, ../sass/modules/_barometer.scss */
+.barometer .current-number {
+  font-style: normal;
+}
+
+/* line 10, ../sass/modules/_barometer.scss */
+.barometer .bar {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  height: 30px;
+  background: #FFF;
+  border: solid 1px #aab2c0;
+}
+/* line 15, ../sass/modules/_barometer.scss */
+.barometer .bar .barometer-progress {
+  -webkit-border-radius: 10px 0 0 10px;
+  -moz-border-radius: 10px 0 0 10px;
+  -ms-border-radius: 10px 0 0 10px;
+  -o-border-radius: 10px 0 0 10px;
+  border-radius: 10px 0 0 10px;
+  display: block;
+  height: 30px;
+  background: red;
+  width: 0%;
+}
+/* line 22, ../sass/modules/_barometer.scss */
+.barometer .bar .barometer-progress.js-completed {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+}
+
+/* line 1, ../sass/modules/_sponsors.scss */
+ul.sponsors {
+  list-style: none;
+  overflow: hidden;
+  *zoom: 1;
+  padding: 0;
+  margin: 5px auto;
+  background-color: #FFF;
+}
+/* line 11, ../../../../../../home/web/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_bullets.scss */
+ul.sponsors li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0;
+}
+/* line 7, ../sass/modules/_sponsors.scss */
+ul.sponsors li {
+  float: left;
+  margin: 5px;
+  height: 100px;
+  line-height: 100px;
+  vertical-align: middle;
+}
+/* line 13, ../sass/modules/_sponsors.scss */
+ul.sponsors li img {
+  width: 130px;
+}
