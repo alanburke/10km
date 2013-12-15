@@ -5,7 +5,7 @@
 /*
  * Corrects `block` display not defined in IE 6/7/8/9 and Firefox 3.
  */
-/* line 21, ../sass/modules/_normalize.scss */
+/* line 11, ../sass/modules/_normalize.scss */
 article,
 aside,
 details,
@@ -23,7 +23,7 @@ summary {
 /*
  * Corrects `inline-block` display not defined in IE 6/7/8/9 and Firefox 3.
  */
-/* line 31, ../sass/modules/_normalize.scss */
+/* line 29, ../sass/modules/_normalize.scss */
 audio,
 canvas,
 video {
@@ -75,7 +75,7 @@ html {
  * Addresses `font-family` inconsistency between `textarea` and other form
  * elements.
  */
-/* line 83, ../sass/modules/_normalize.scss */
+/* line 79, ../sass/modules/_normalize.scss */
 html,
 button,
 input,
@@ -106,7 +106,7 @@ a:focus {
 /*
  * Improves readability when focused and also mouse hovered in all browsers.
  */
-/* line 112, ../sass/modules/_normalize.scss */
+/* line 111, ../sass/modules/_normalize.scss */
 a:active,
 a:hover {
   outline: 0;
@@ -167,7 +167,7 @@ abbr[title] {
 /*
  * Addresses style set to `bolder` in Firefox 3+, Safari 4/5, and Chrome.
  */
-/* line 169, ../sass/modules/_normalize.scss */
+/* line 168, ../sass/modules/_normalize.scss */
 b,
 strong {
   font-weight: bold;
@@ -198,7 +198,7 @@ mark {
 /*
  * Addresses margins set differently in IE 6/7.
  */
-/* line 199, ../sass/modules/_normalize.scss */
+/* line 198, ../sass/modules/_normalize.scss */
 p,
 pre {
   margin: 1em 0;
@@ -207,7 +207,7 @@ pre {
 /*
  * Corrects font family set oddly in IE 6, Safari 4/5, and Chrome.
  */
-/* line 210, ../sass/modules/_normalize.scss */
+/* line 207, ../sass/modules/_normalize.scss */
 code,
 kbd,
 pre,
@@ -238,7 +238,7 @@ q {
 /*
  * Addresses `quotes` property not supported in Safari 4.
  */
-/* line 239, ../sass/modules/_normalize.scss */
+/* line 238, ../sass/modules/_normalize.scss */
 q:before,
 q:after {
   content: '';
@@ -256,7 +256,7 @@ small {
 /*
  * Prevents `sub` and `sup` affecting `line-height` in all browsers.
  */
-/* line 257, ../sass/modules/_normalize.scss */
+/* line 256, ../sass/modules/_normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -281,7 +281,7 @@ sub {
 /*
  * Addresses margins set differently in IE 6/7.
  */
-/* line 283, ../sass/modules/_normalize.scss */
+/* line 280, ../sass/modules/_normalize.scss */
 dl,
 menu,
 ol,
@@ -297,7 +297,7 @@ dd {
 /*
  * Addresses paddings set differently in IE 6/7.
  */
-/* line 297, ../sass/modules/_normalize.scss */
+/* line 295, ../sass/modules/_normalize.scss */
 menu,
 ol,
 ul {
@@ -307,7 +307,7 @@ ul {
 /*
  * Corrects list images handled incorrectly in IE 7.
  */
-/* line 306, ../sass/modules/_normalize.scss */
+/* line 305, ../sass/modules/_normalize.scss */
 nav ul,
 nav ol {
   list-style: none;
@@ -391,7 +391,7 @@ legend {
  *    and Chrome.
  * 3. Improves appearance and consistency in all browsers.
  */
-/* line 390, ../sass/modules/_normalize.scss */
+/* line 387, ../sass/modules/_normalize.scss */
 button,
 input,
 select,
@@ -410,7 +410,7 @@ textarea {
  * Addresses Firefox 3+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
-/* line 403, ../sass/modules/_normalize.scss */
+/* line 402, ../sass/modules/_normalize.scss */
 button,
 input {
   line-height: normal;
@@ -425,7 +425,7 @@ input {
  * 4. Removes inner spacing in IE 7 without affecting normal text inputs.
  *    Known issue: inner spacing remains in IE 6.
  */
-/* line 420, ../sass/modules/_normalize.scss */
+/* line 417, ../sass/modules/_normalize.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -441,7 +441,7 @@ input[type="submit"] {
 /*
  * Re-set default cursor for disabled elements.
  */
-/* line 431, ../sass/modules/_normalize.scss */
+/* line 430, ../sass/modules/_normalize.scss */
 button[disabled],
 input[disabled] {
   cursor: default;
@@ -453,7 +453,7 @@ input[disabled] {
  * 3. Removes excess padding in IE 7.
  *    Known issue: excess padding remains in IE 6.
  */
-/* line 443, ../sass/modules/_normalize.scss */
+/* line 442, ../sass/modules/_normalize.scss */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
@@ -485,7 +485,7 @@ input[type="search"] {
  * Removes inner padding and search cancel button in Safari 5 and Chrome
  * on OS X.
  */
-/* line 469, ../sass/modules/_normalize.scss */
+/* line 468, ../sass/modules/_normalize.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
@@ -494,7 +494,7 @@ input[type="search"]::-webkit-search-decoration {
 /*
  * Removes inner padding and border in Firefox 3+.
  */
-/* line 478, ../sass/modules/_normalize.scss */
+/* line 477, ../sass/modules/_normalize.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -536,7 +536,7 @@ table {
   /* IE6, IE7 */
   clip: rect(1px, 1px, 1px, 1px);
 }
-/* line 38, ../sass/modules/_helpers.scss */
+/* line 37, ../sass/modules/_helpers.scss */
 .element-invisible.element-focusable:active, .year-nav h3.element-focusable:active, .element-invisible.element-focusable:focus, .year-nav h3.element-focusable:focus {
   position: static !important;
   clip: auto;
@@ -557,7 +557,7 @@ table {
   margin-left: auto;
   margin-right: auto;
 }
-/* line 38, ../../../../../../home/web/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, ../../../../../../home/web/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-core-1.0.0.alpha.13/stylesheets/compass/utilities/general/_clearfix.scss */
 .page:after {
   content: "";
   display: table;
@@ -577,26 +577,25 @@ table {
   *zoom: 1;
   position: relative;
 }
-/* line 60, ../../../../../../home/web/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 62, ../../../../../../home/web/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-core-1.0.0.alpha.13/stylesheets/compass/typography/lists/_horizontal-list.scss */
 .page .page-nav ul li {
   list-style-image: none;
   list-style-type: none;
   margin-left: 0;
   white-space: nowrap;
-  display: inline;
   float: left;
   padding-left: 4px;
   padding-right: 4px;
 }
-/* line 48, ../../../../../../home/web/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
-.page .page-nav ul li:first-child, .page .page-nav ul li.first {
+/* line 49, ../../../../../../home/web/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-core-1.0.0.alpha.13/stylesheets/compass/typography/lists/_horizontal-list.scss */
+.page .page-nav ul li:first-child {
   padding-left: 0;
 }
-/* line 49, ../../../../../../home/web/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 50, ../../../../../../home/web/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-core-1.0.0.alpha.13/stylesheets/compass/typography/lists/_horizontal-list.scss */
 .page .page-nav ul li:last-child {
   padding-right: 0;
 }
-/* line 50, ../../../../../../home/web/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 52, ../../../../../../home/web/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-core-1.0.0.alpha.13/stylesheets/compass/typography/lists/_horizontal-list.scss */
 .page .page-nav ul li.last {
   padding-right: 0;
 }
@@ -609,26 +608,25 @@ table {
   *zoom: 1;
   position: relative;
 }
-/* line 60, ../../../../../../home/web/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 62, ../../../../../../home/web/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-core-1.0.0.alpha.13/stylesheets/compass/typography/lists/_horizontal-list.scss */
 .page .secondary-nav ul li {
   list-style-image: none;
   list-style-type: none;
   margin-left: 0;
   white-space: nowrap;
-  display: inline;
   float: left;
   padding-left: 4px;
   padding-right: 4px;
 }
-/* line 48, ../../../../../../home/web/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
-.page .secondary-nav ul li:first-child, .page .secondary-nav ul li.first {
+/* line 49, ../../../../../../home/web/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-core-1.0.0.alpha.13/stylesheets/compass/typography/lists/_horizontal-list.scss */
+.page .secondary-nav ul li:first-child {
   padding-left: 0;
 }
-/* line 49, ../../../../../../home/web/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 50, ../../../../../../home/web/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-core-1.0.0.alpha.13/stylesheets/compass/typography/lists/_horizontal-list.scss */
 .page .secondary-nav ul li:last-child {
   padding-right: 0;
 }
-/* line 50, ../../../../../../home/web/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 52, ../../../../../../home/web/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-core-1.0.0.alpha.13/stylesheets/compass/typography/lists/_horizontal-list.scss */
 .page .secondary-nav ul li.last {
   padding-right: 0;
 }
@@ -640,7 +638,7 @@ table {
   padding: 0;
   margin: 0;
 }
-/* line 11, ../../../../../../home/web/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_bullets.scss */
+/* line 11, ../../../../../../home/web/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-core-1.0.0.alpha.13/stylesheets/compass/typography/lists/_bullets.scss */
 .page ul.image-gallery li {
   list-style-image: none;
   list-style-type: none;
@@ -659,27 +657,27 @@ table {
     padding: 0;
     border: 0;
     overflow: hidden;
+    *zoom: 1;
   }
-  /* line 60, ../../../../../../home/web/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+  /* line 62, ../../../../../../home/web/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-core-1.0.0.alpha.13/stylesheets/compass/typography/lists/_horizontal-list.scss */
   .year-nav ul li {
     list-style-image: none;
     list-style-type: none;
     margin-left: 0;
     white-space: nowrap;
-    display: inline;
     float: left;
     padding-left: 4px;
     padding-right: 4px;
   }
-  /* line 48, ../../../../../../home/web/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
-  .year-nav ul li:first-child, .year-nav ul li.first {
+  /* line 49, ../../../../../../home/web/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-core-1.0.0.alpha.13/stylesheets/compass/typography/lists/_horizontal-list.scss */
+  .year-nav ul li:first-child {
     padding-left: 0;
   }
-  /* line 49, ../../../../../../home/web/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+  /* line 50, ../../../../../../home/web/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-core-1.0.0.alpha.13/stylesheets/compass/typography/lists/_horizontal-list.scss */
   .year-nav ul li:last-child {
     padding-right: 0;
   }
-  /* line 50, ../../../../../../home/web/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+  /* line 52, ../../../../../../home/web/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-core-1.0.0.alpha.13/stylesheets/compass/typography/lists/_horizontal-list.scss */
   .year-nav ul li.last {
     padding-right: 0;
   }
@@ -721,38 +719,38 @@ table {
 }
 
 /* Colours */
-/* line 16, ../sass/modules/_base.scss */
+/* line 18, ../sass/modules/_base.scss */
 body {
   background: #cccccc url(../images/style/striped_lens/striped_lens.png) repeat 0 0;
   color: #0e203b;
 }
-/* line 20, ../sass/modules/_base.scss */
+/* line 22, ../sass/modules/_base.scss */
 body .page {
   background: transparent;
 }
 
-/* line 25, ../sass/modules/_base.scss */
+/* line 27, ../sass/modules/_base.scss */
 h2.site-title {
   color: #b32d47;
   color: rgba(179, 45, 71, 0.75);
-  -webkit-transition-duration: 0.25s;
   -moz-transition-duration: 0.25s;
   -o-transition-duration: 0.25s;
+  -webkit-transition-duration: 0.25s;
   transition-duration: 0.25s;
 }
-/* line 29, ../sass/modules/_base.scss */
+/* line 31, ../sass/modules/_base.scss */
 h2.site-title:hover {
   color: #b32d47;
   color: #b32d47;
 }
 
-/* line 34, ../sass/modules/_base.scss */
+/* line 36, ../sass/modules/_base.scss */
 .page-nav {
   background-color: #848d9a;
   background-color: rgba(14, 32, 59, 0.5);
 }
 
-/* line 42, ../sass/modules/_base.scss */
+/* line 44, ../sass/modules/_base.scss */
 .year-nav ul {
   padding: 0;
 }
@@ -773,7 +771,7 @@ h1, h2, h3, h4, h5, h6 {
 a {
   color: #b32d47;
 }
-/* line 24, ../../../../../../home/web/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 24, ../../../../../../home/web/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-core-1.0.0.alpha.13/stylesheets/compass/typography/links/_link-colors.scss */
 a:hover {
   color: #d0435e;
 }
@@ -1141,7 +1139,7 @@ textarea {
   width: 1px;
 }
 
-/* line 105, ../sass/modules/_main.scss */
+/* line 104, ../sass/modules/_main.scss */
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
   clip: auto;
@@ -1157,7 +1155,7 @@ textarea {
   visibility: hidden;
 }
 
-/* line 119, ../sass/modules/_main.scss */
+/* line 118, ../sass/modules/_main.scss */
 .clearfix:before,
 .clearfix:after {
   content: " ";
@@ -1187,7 +1185,7 @@ textarea {
     text-shadow: none !important;
   }
 
-  /* line 145, ../sass/modules/_main.scss */
+  /* line 144, ../sass/modules/_main.scss */
   a,
   a:visited {
     text-decoration: underline;
@@ -1206,14 +1204,14 @@ textarea {
   /*
    * Don't show links for images, or javascript/internal links
    */
-  /* line 163, ../sass/modules/_main.scss */
+  /* line 161, ../sass/modules/_main.scss */
   .ir a:after,
   a[href^="javascript:"]:after,
   a[href^="#"]:after {
     content: "";
   }
 
-  /* line 168, ../sass/modules/_main.scss */
+  /* line 167, ../sass/modules/_main.scss */
   pre,
   blockquote {
     border: 1px solid #999;
@@ -1226,7 +1224,7 @@ textarea {
     /* h5bp.com/t */
   }
 
-  /* line 178, ../sass/modules/_main.scss */
+  /* line 177, ../sass/modules/_main.scss */
   tr,
   img {
     page-break-inside: avoid;
@@ -1239,9 +1237,8 @@ textarea {
 
   @page {
     margin: 0.5cm;
-}
-
-  /* line 192, ../sass/modules/_main.scss */
+  }
+  /* line 190, ../sass/modules/_main.scss */
   p,
   h2,
   h3 {
@@ -1249,7 +1246,7 @@ textarea {
     widows: 3;
   }
 
-  /* line 198, ../sass/modules/_main.scss */
+  /* line 197, ../sass/modules/_main.scss */
   h2,
   h3 {
     page-break-after: avoid;
@@ -1268,10 +1265,8 @@ textarea {
 
 /* line 10, ../sass/modules/_barometer.scss */
 .barometer .bar {
-  -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
+  -webkit-border-radius: 10px;
   border-radius: 10px;
   height: 30px;
   background: #FFF;
@@ -1279,10 +1274,8 @@ textarea {
 }
 /* line 15, ../sass/modules/_barometer.scss */
 .barometer .bar .barometer-progress {
-  -webkit-border-radius: 10px 0 0 10px;
   -moz-border-radius: 10px 0 0 10px;
-  -ms-border-radius: 10px 0 0 10px;
-  -o-border-radius: 10px 0 0 10px;
+  -webkit-border-radius: 10px;
   border-radius: 10px 0 0 10px;
   display: block;
   height: 30px;
@@ -1291,10 +1284,8 @@ textarea {
 }
 /* line 22, ../sass/modules/_barometer.scss */
 .barometer .bar .barometer-progress.js-completed {
-  -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
+  -webkit-border-radius: 10px;
   border-radius: 10px;
 }
 
@@ -1307,7 +1298,7 @@ ul.sponsors {
   margin: 5px auto;
   background-color: #FFF;
 }
-/* line 11, ../../../../../../home/web/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_bullets.scss */
+/* line 11, ../../../../../../home/web/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-core-1.0.0.alpha.13/stylesheets/compass/typography/lists/_bullets.scss */
 ul.sponsors li {
   list-style-image: none;
   list-style-type: none;
@@ -1323,5 +1314,5 @@ ul.sponsors li {
 }
 /* line 13, ../sass/modules/_sponsors.scss */
 ul.sponsors li img {
-  width: 130px;
+  width: 112px;
 }
